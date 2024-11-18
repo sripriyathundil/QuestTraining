@@ -1,8 +1,8 @@
 package com.quest.tenthday_assesment;
 
 public abstract class StockAnalyzer {
-    String stockName;
-    String stockSymbol;
+    public String stockName;
+    public String stockSymbol;
     int[] prices;
     abstract int findMaxPrice();
     abstract int findMinPrice();
