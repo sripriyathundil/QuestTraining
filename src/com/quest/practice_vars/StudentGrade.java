@@ -81,7 +81,7 @@ public class StudentGrade {
     }
 
     // Method to get valid score for a subject
-    private static int getValidScore(Scanner sc, String subject) {
+    static int getValidScore(Scanner sc, String subject) {
         final int MAX_SCORE = 100;
         int score;
         while (true) {
